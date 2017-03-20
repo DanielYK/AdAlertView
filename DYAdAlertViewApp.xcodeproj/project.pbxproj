@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D4964661E111FFB00760CBF /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4964611E111FFB00760CBF /* 3.png */; };
+		6D4964671E111FFB00760CBF /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4964621E111FFB00760CBF /* 2.png */; };
+		6D4964681E111FFB00760CBF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4964631E111FFB00760CBF /* 1.png */; };
+		6D4964691E111FFB00760CBF /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4964641E111FFB00760CBF /* 4.png */; };
+		6D49646A1E111FFB00760CBF /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4964651E111FFB00760CBF /* 5.png */; };
+		6D4964721E11241F00760CBF /* DYAdAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D49646D1E11241F00760CBF /* DYAdAlertView.m */; };
+		6D4964731E11241F00760CBF /* DYAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D49646F1E11241F00760CBF /* DYAdModel.m */; };
+		6D4964741E11241F00760CBF /* DYWKWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4964711E11241F00760CBF /* DYWKWebVC.m */; };
+		6D500C6B1E03EA4500EFF542 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D500C6A1E03EA4500EFF542 /* main.m */; };
+		6D500C6E1E03EA4500EFF542 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D500C6D1E03EA4500EFF542 /* AppDelegate.m */; };
+		6D500C711E03EA4500EFF542 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D500C701E03EA4500EFF542 /* ViewController.m */; };
+		6D500C741E03EA4500EFF542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D500C721E03EA4500EFF542 /* Main.storyboard */; };
+		6D500C761E03EA4500EFF542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D500C751E03EA4500EFF542 /* Assets.xcassets */; };
+		6D500C791E03EA4500EFF542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D500C771E03EA4500EFF542 /* LaunchScreen.storyboard */; };
+		6D500C841E03EA4500EFF542 /* DYAdAlertViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D500C831E03EA4500EFF542 /* DYAdAlertViewAppTests.m */; };
+		6D500C8F1E03EA4500EFF542 /* DYAdAlertViewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D500C8E1E03EA4500EFF542 /* DYAdAlertViewAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D500C801E03EA4500EFF542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D500C5E1E03EA4500EFF542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D500C651E03EA4500EFF542;
+			remoteInfo = DYAdAlertViewApp;
+		};
+		6D500C8B1E03EA4500EFF542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D500C5E1E03EA4500EFF542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D500C651E03EA4500EFF542;
+			remoteInfo = DYAdAlertViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D4964611E111FFB00760CBF /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		6D4964621E111FFB00760CBF /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		6D4964631E111FFB00760CBF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		6D4964641E111FFB00760CBF /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		6D4964651E111FFB00760CBF /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		6D49646C1E11241F00760CBF /* DYAdAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYAdAlertView.h; sourceTree = "<group>"; };
+		6D49646D1E11241F00760CBF /* DYAdAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYAdAlertView.m; sourceTree = "<group>"; };
+		6D49646E1E11241F00760CBF /* DYAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYAdModel.h; sourceTree = "<group>"; };
+		6D49646F1E11241F00760CBF /* DYAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYAdModel.m; sourceTree = "<group>"; };
+		6D4964701E11241F00760CBF /* DYWKWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYWKWebVC.h; sourceTree = "<group>"; };
+		6D4964711E11241F00760CBF /* DYWKWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYWKWebVC.m; sourceTree = "<group>"; };
+		6D500C661E03EA4500EFF542 /* DYAdAlertViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYAdAlertViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D500C6A1E03EA4500EFF542 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D500C6C1E03EA4500EFF542 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D500C6D1E03EA4500EFF542 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D500C6F1E03EA4500EFF542 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D500C701E03EA4500EFF542 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D500C731E03EA4500EFF542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D500C751E03EA4500EFF542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D500C781E03EA4500EFF542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D500C7A1E03EA4500EFF542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D500C7F1E03EA4500EFF542 /* DYAdAlertViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYAdAlertViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D500C831E03EA4500EFF542 /* DYAdAlertViewAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYAdAlertViewAppTests.m; sourceTree = "<group>"; };
+		6D500C851E03EA4500EFF542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D500C8A1E03EA4500EFF542 /* DYAdAlertViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYAdAlertViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D500C8E1E03EA4500EFF542 /* DYAdAlertViewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYAdAlertViewAppUITests.m; sourceTree = "<group>"; };
+		6D500C901E03EA4500EFF542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D500C631E03EA4500EFF542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D500C7C1E03EA4500EFF542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D500C871E03EA4500EFF542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D49646B1E11241F00760CBF /* DYAdAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				6D49646C1E11241F00760CBF /* DYAdAlertView.h */,
+				6D49646D1E11241F00760CBF /* DYAdAlertView.m */,
+				6D49646E1E11241F00760CBF /* DYAdModel.h */,
+				6D49646F1E11241F00760CBF /* DYAdModel.m */,
+				6D4964701E11241F00760CBF /* DYWKWebVC.h */,
+				6D4964711E11241F00760CBF /* DYWKWebVC.m */,
+			);
+			path = DYAdAlertView;
+			sourceTree = "<group>";
+		};
+		6D500C5D1E03EA4500EFF542 = {
+			isa = PBXGroup;
+			children = (
+				6D500C681E03EA4500EFF542 /* DYAdAlertViewApp */,
+				6D500C821E03EA4500EFF542 /* DYAdAlertViewAppTests */,
+				6D500C8D1E03EA4500EFF542 /* DYAdAlertViewAppUITests */,
+				6D500C671E03EA4500EFF542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D500C671E03EA4500EFF542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D500C661E03EA4500EFF542 /* DYAdAlertViewApp.app */,
+				6D500C7F1E03EA4500EFF542 /* DYAdAlertViewAppTests.xctest */,
+				6D500C8A1E03EA4500EFF542 /* DYAdAlertViewAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D500C681E03EA4500EFF542 /* DYAdAlertViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				6D49646B1E11241F00760CBF /* DYAdAlertView */,
+				6D500C6C1E03EA4500EFF542 /* AppDelegate.h */,
+				6D500C6D1E03EA4500EFF542 /* AppDelegate.m */,
+				6D500C6F1E03EA4500EFF542 /* ViewController.h */,
+				6D500C701E03EA4500EFF542 /* ViewController.m */,
+				6D500C721E03EA4500EFF542 /* Main.storyboard */,
+				6D500C751E03EA4500EFF542 /* Assets.xcassets */,
+				6D500C771E03EA4500EFF542 /* LaunchScreen.storyboard */,
+				6D500C7A1E03EA4500EFF542 /* Info.plist */,
+				6D500C691E03EA4500EFF542 /* Supporting Files */,
+			);
+			path = DYAdAlertViewApp;
+			sourceTree = "<group>";
+		};
+		6D500C691E03EA4500EFF542 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D4964611E111FFB00760CBF /* 3.png */,
+				6D4964621E111FFB00760CBF /* 2.png */,
+				6D4964631E111FFB00760CBF /* 1.png */,
+				6D4964641E111FFB00760CBF /* 4.png */,
+				6D4964651E111FFB00760CBF /* 5.png */,
+				6D500C6A1E03EA4500EFF542 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D500C821E03EA4500EFF542 /* DYAdAlertViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D500C831E03EA4500EFF542 /* DYAdAlertViewAppTests.m */,
+				6D500C851E03EA4500EFF542 /* Info.plist */,
+			);
+			path = DYAdAlertViewAppTests;
+			sourceTree = "<group>";
+		};
+		6D500C8D1E03EA4500EFF542 /* DYAdAlertViewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D500C8E1E03EA4500EFF542 /* DYAdAlertViewAppUITests.m */,
+				6D500C901E03EA4500EFF542 /* Info.plist */,
+			);
+			path = DYAdAlertViewAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D500C651E03EA4500EFF542 /* DYAdAlertViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D500C931E03EA4500EFF542 /* Build configuration list for PBXNativeTarget "DYAdAlertViewApp" */;
+			buildPhases = (
+				6D500C621E03EA4500EFF542 /* Sources */,
+				6D500C631E03EA4500EFF542 /* Frameworks */,
+				6D500C641E03EA4500EFF542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYAdAlertViewApp;
+			productName = DYAdAlertViewApp;
+			productReference = 6D500C661E03EA4500EFF542 /* DYAdAlertViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D500C7E1E03EA4500EFF542 /* DYAdAlertViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D500C961E03EA4500EFF542 /* Build configuration list for PBXNativeTarget "DYAdAlertViewAppTests" */;
+			buildPhases = (
+				6D500C7B1E03EA4500EFF542 /* Sources */,
+				6D500C7C1E03EA4500EFF542 /* Frameworks */,
+				6D500C7D1E03EA4500EFF542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D500C811E03EA4500EFF542 /* PBXTargetDependency */,
+			);
+			name = DYAdAlertViewAppTests;
+			productName = DYAdAlertViewAppTests;
+			productReference = 6D500C7F1E03EA4500EFF542 /* DYAdAlertViewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D500C891E03EA4500EFF542 /* DYAdAlertViewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D500C991E03EA4500EFF542 /* Build configuration list for PBXNativeTarget "DYAdAlertViewAppUITests" */;
+			buildPhases = (
+				6D500C861E03EA4500EFF542 /* Sources */,
+				6D500C871E03EA4500EFF542 /* Frameworks */,
+				6D500C881E03EA4500EFF542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D500C8C1E03EA4500EFF542 /* PBXTargetDependency */,
+			);
+			name = DYAdAlertViewAppUITests;
+			productName = DYAdAlertViewAppUITests;
+			productReference = 6D500C8A1E03EA4500EFF542 /* DYAdAlertViewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D500C5E1E03EA4500EFF542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Daniel Yao";
+				TargetAttributes = {
+					6D500C651E03EA4500EFF542 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C79HGK3MHM;
+						ProvisioningStyle = Automatic;
+					};
+					6D500C7E1E03EA4500EFF542 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C79HGK3MHM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D500C651E03EA4500EFF542;
+					};
+					6D500C891E03EA4500EFF542 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C79HGK3MHM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D500C651E03EA4500EFF542;
+					};
+				};
+			};
+			buildConfigurationList = 6D500C611E03EA4500EFF542 /* Build configuration list for PBXProject "DYAdAlertViewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D500C5D1E03EA4500EFF542;
+			productRefGroup = 6D500C671E03EA4500EFF542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D500C651E03EA4500EFF542 /* DYAdAlertViewApp */,
+				6D500C7E1E03EA4500EFF542 /* DYAdAlertViewAppTests */,
+				6D500C891E03EA4500EFF542 /* DYAdAlertViewAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D500C641E03EA4500EFF542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D500C791E03EA4500EFF542 /* LaunchScreen.storyboard in Resources */,
+				6D4964691E111FFB00760CBF /* 4.png in Resources */,
+				6D500C761E03EA4500EFF542 /* Assets.xcassets in Resources */,
+				6D4964671E111FFB00760CBF /* 2.png in Resources */,
+				6D4964681E111FFB00760CBF /* 1.png in Resources */,
+				6D49646A1E111FFB00760CBF /* 5.png in Resources */,
+				6D500C741E03EA4500EFF542 /* Main.storyboard in Resources */,
+				6D4964661E111FFB00760CBF /* 3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D500C7D1E03EA4500EFF542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D500C881E03EA4500EFF542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D500C621E03EA4500EFF542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4964741E11241F00760CBF /* DYWKWebVC.m in Sources */,
+				6D4964731E11241F00760CBF /* DYAdModel.m in Sources */,
+				6D500C711E03EA4500EFF542 /* ViewController.m in Sources */,
+				6D500C6E1E03EA4500EFF542 /* AppDelegate.m in Sources */,
+				6D500C6B1E03EA4500EFF542 /* main.m in Sources */,
+				6D4964721E11241F00760CBF /* DYAdAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D500C7B1E03EA4500EFF542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D500C841E03EA4500EFF542 /* DYAdAlertViewAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D500C861E03EA4500EFF542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D500C8F1E03EA4500EFF542 /* DYAdAlertViewAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D500C811E03EA4500EFF542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D500C651E03EA4500EFF542 /* DYAdAlertViewApp */;
+			targetProxy = 6D500C801E03EA4500EFF542 /* PBXContainerItemProxy */;
+		};
+		6D500C8C1E03EA4500EFF542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D500C651E03EA4500EFF542 /* DYAdAlertViewApp */;
+			targetProxy = 6D500C8B1E03EA4500EFF542 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D500C721E03EA4500EFF542 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D500C731E03EA4500EFF542 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D500C771E03EA4500EFF542 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D500C781E03EA4500EFF542 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D500C911E03EA4500EFF542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D500C921E03EA4500EFF542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D500C941E03EA4500EFF542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C79HGK3MHM;
+				INFOPLIST_FILE = DYAdAlertViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yk.DYAdAlertViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6D500C951E03EA4500EFF542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C79HGK3MHM;
+				INFOPLIST_FILE = DYAdAlertViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yk.DYAdAlertViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6D500C971E03EA4500EFF542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C79HGK3MHM;
+				INFOPLIST_FILE = DYAdAlertViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yk.DYAdAlertViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYAdAlertViewApp.app/DYAdAlertViewApp";
+			};
+			name = Debug;
+		};
+		6D500C981E03EA4500EFF542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C79HGK3MHM;
+				INFOPLIST_FILE = DYAdAlertViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yk.DYAdAlertViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYAdAlertViewApp.app/DYAdAlertViewApp";
+			};
+			name = Release;
+		};
+		6D500C9A1E03EA4500EFF542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C79HGK3MHM;
+				INFOPLIST_FILE = DYAdAlertViewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yk.DYAdAlertViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYAdAlertViewApp;
+			};
+			name = Debug;
+		};
+		6D500C9B1E03EA4500EFF542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C79HGK3MHM;
+				INFOPLIST_FILE = DYAdAlertViewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yk.DYAdAlertViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYAdAlertViewApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D500C611E03EA4500EFF542 /* Build configuration list for PBXProject "DYAdAlertViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D500C911E03EA4500EFF542 /* Debug */,
+				6D500C921E03EA4500EFF542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D500C931E03EA4500EFF542 /* Build configuration list for PBXNativeTarget "DYAdAlertViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D500C941E03EA4500EFF542 /* Debug */,
+				6D500C951E03EA4500EFF542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D500C961E03EA4500EFF542 /* Build configuration list for PBXNativeTarget "DYAdAlertViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D500C971E03EA4500EFF542 /* Debug */,
+				6D500C981E03EA4500EFF542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D500C991E03EA4500EFF542 /* Build configuration list for PBXNativeTarget "DYAdAlertViewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D500C9A1E03EA4500EFF542 /* Debug */,
+				6D500C9B1E03EA4500EFF542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D500C5E1E03EA4500EFF542 /* Project object */;
+}
