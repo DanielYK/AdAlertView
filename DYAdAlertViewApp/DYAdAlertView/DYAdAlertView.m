@@ -26,6 +26,7 @@
 @property(nonatomic,strong)UIScrollView *scrollView;
 @property(nonatomic,assign)NSInteger    itemsCount;
 @property(nonatomic,strong)NSArray      *adDataList;
+@property(nonatomic,assign)BOOL         hiddenPageControl;
 @end
 @implementation DYAdAlertView
 /*
@@ -45,17 +46,17 @@
     return sqAlertView;
 }
 - (instancetype)initShowInView:(UIView *)view theDelegate:(id)delegate
-                    theADInfo:(NSArray *)dataList
+                     theADInfo:(NSArray *)dataList
               placeHolderImage: (NSString *)placeHolderStr{
     self = [super init];
     if (self) {
         self.frame = view.bounds;
-    
+        
         self.backgroundColor    = [UIColor colorWithWhite:0.2 alpha:1.0];
         placeHolderImgStr       = placeHolderStr;
-        self.adDataList         = dataList;
         self.delegate           = delegate;
-        
+        self.hiddenPageControl  = NO;
+        self.adDataList         = dataList;
         
         [[[UIApplication sharedApplication].windows objectAtIndex:0] endEditing:YES];
         [[[UIApplication sharedApplication].windows objectAtIndex:0] addSubview:self];
@@ -119,6 +120,9 @@
     if (_itemsCount == 0) {
         return;
     }
+    if (_itemsCount == 1) {
+        self.hiddenPageControl = YES;
+    }
     [self addSubview:self.scrollView];
     
     for ( int i = 0; i < _itemsCount; i++ ) {
@@ -144,6 +148,7 @@
     pageControl.numberOfPages   = _itemsCount;
     pageControl.currentPage     = 0;
     [pageControl addTarget:self action:@selector(pageValueChange:) forControlEvents:UIControlEventValueChanged];
+    pageControl.hidden          = self.hiddenPageControl;
     
     [self addSubview:pageControl];
 }

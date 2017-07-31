@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37DEECEA1F2F09C800BD3667 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DEECE91F2F09C800BD3667 /* close.png */; };
 		6D4964661E111FFB00760CBF /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4964611E111FFB00760CBF /* 3.png */; };
 		6D4964671E111FFB00760CBF /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4964621E111FFB00760CBF /* 2.png */; };
 		6D4964681E111FFB00760CBF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4964631E111FFB00760CBF /* 1.png */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37DEECE91F2F09C800BD3667 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		6D4964611E111FFB00760CBF /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		6D4964621E111FFB00760CBF /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		6D4964631E111FFB00760CBF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		6D500C691E03EA4500EFF542 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37DEECE91F2F09C800BD3667 /* close.png */,
 				6D4964611E111FFB00760CBF /* 3.png */,
 				6D4964621E111FFB00760CBF /* 2.png */,
 				6D4964631E111FFB00760CBF /* 1.png */,
@@ -245,7 +248,7 @@
 				TargetAttributes = {
 					6D500C651E03EA4500EFF542 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = C79HGK3MHM;
+						DevelopmentTeam = G524CL226K;
 						ProvisioningStyle = Automatic;
 					};
 					6D500C7E1E03EA4500EFF542 = {
@@ -287,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DEECEA1F2F09C800BD3667 /* close.png in Resources */,
 				6D500C791E03EA4500EFF542 /* LaunchScreen.storyboard in Resources */,
 				6D4964691E111FFB00760CBF /* 4.png in Resources */,
 				6D500C761E03EA4500EFF542 /* Assets.xcassets in Resources */,
@@ -474,7 +478,7 @@
 		6D500C941E03EA4500EFF542 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = C79HGK3MHM;
+				DEVELOPMENT_TEAM = G524CL226K;
 				INFOPLIST_FILE = DYAdAlertViewApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -487,7 +491,7 @@
 		6D500C951E03EA4500EFF542 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = C79HGK3MHM;
+				DEVELOPMENT_TEAM = G524CL226K;
 				INFOPLIST_FILE = DYAdAlertViewApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
