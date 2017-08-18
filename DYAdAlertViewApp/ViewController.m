@@ -31,7 +31,7 @@
     for (int i = 1; i<=5; i++) {
         DYAdModel *adModel  = [[DYAdModel alloc]init];
         adModel.imgStr      = [NSString stringWithFormat:@"%d",i];
-        adModel.linkUrl     = @"https://www.apple.cn";
+        adModel.linkUrl     = @"https://github.com/DanielYK/AdAlertView";
         [arr addObject:adModel];
     }
     return arr;
