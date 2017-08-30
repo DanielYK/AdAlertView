@@ -7,7 +7,7 @@ AdAlertView
  
  * 效果图
  
-  ![image](https://github.com/DanielYK/AdAlertView/blob/master/adAlert.gif)
+  ![image](https://github.com/DanielYK/AdAlertView/blob/master/adAlertView.gif)
 
 
  * 对应文件
